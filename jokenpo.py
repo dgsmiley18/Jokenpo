@@ -2,9 +2,9 @@ from time import sleep
 import random
 print('Olá,seja bem vindo ao jogo de pedra papel e tesoura')
 print('''Escolha entre pedra papel ou tesoura
-pedra = 1
-papel = 2
-tesoura = 3''')
+[1]pedra
+[2]papel
+[3]tesoura''')
 #Vai aleatoriamente escolher um numero entre 1 a 3
 bot = random.randint(1,3)
 jogador = int(input('escolher: '))
